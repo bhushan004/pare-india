@@ -109,10 +109,10 @@ const HeroLg = () => {
         <b className="flex items-center font-metropolis leading-[145%] md:w-[550px] lg:w-[700px] 2xl:w-[800px]">
           <span className="mt-5 w-full uppercase leading-snug md:text-[3rem] lg:text-[3.5rem] 2xl:text-[4rem]">
             <span>
-              TRANSFORM <br /> YOUR SPACES WITH{' '}
+              innovative <br /> ceiling & wall {' '}
             </span>
             <br />
-            <span className="upper text-red-base">PANELS</span>
+            <span className="upper text-red-base">panels</span>
           </span>
         </b>
         <Button
@@ -120,7 +120,7 @@ const HeroLg = () => {
           variant="outlined"
           onClick={() => router.push('/contact')}
         >
-          VIEW PROJECT
+          contact us
         </Button>
       </div>
       <Swiper
