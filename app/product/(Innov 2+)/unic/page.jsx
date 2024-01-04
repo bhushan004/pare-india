@@ -38,14 +38,18 @@ import {
   JtrimLarge,
   JtrimPro,
 } from '@/utils/assets';
-import WaveBanner from '@/components/products/wave/WaveBanner';
+import UnicBanner from '@/components/products/unic/UnicBanner';
 
 const metallicData = [
-  { img: WaveShade1Img1, shade: WaveShade1Shade1, fname: 'golden oak' },
-  { img: WaveShade1Img3, shade: WaveShade1Shade3, fname: 'birch' },
-  { img: WaveShade1Img2, shade: WaveShade1Shade2, fname: 'maple wood' },
-  { img: WaveShade1Img4, shade: WaveShade1Shade4, fname: 'walnut' },
-  { img: WaveShade1Img5, shade: WaveShade1Shade5, fname: 'pinewood' },
+  { img: WaveShade1Img1, shade: WaveShade1Shade1, fname: 'Honey Maple DB' },
+  { img: WaveShade1Img3, shade: WaveShade1Shade3, fname: 'Danish Teak DB' },
+  { img: WaveShade1Img2, shade: WaveShade1Shade2, fname: 'Oak Noir DB' },
+  { img: WaveShade1Img4, shade: WaveShade1Shade4, fname: 'White Mist DB' },
+  { img: WaveShade1Img4, shade: WaveShade1Shade4, fname: 'Noce Grande DB' },
+  { img: WaveShade1Img4, shade: WaveShade1Shade4, fname: 'Gold Maple DB' },
+  { img: WaveShade1Img4, shade: WaveShade1Shade4, fname: 'English Nut DB' },
+  { img: WaveShade1Img4, shade: WaveShade1Shade4, fname: 'Oakwood Ocre DB' },
+  { img: WaveShade1Img4, shade: WaveShade1Shade4, fname: 'Spiced Walnut DB' },
   {
     img: WaveShade1Img6,
     shade: WaveShade1Shade6,
@@ -55,12 +59,10 @@ const metallicData = [
 ];
 
 const shade2Data = [
-  { img: WaveShade2Img1, shade: WaveShade2Shade1, fname: 'spiced walnut' },
-  { img: WaveShade2Img2, shade: WaveShade2Shade2, fname: 'oakwood ocre' },
-  { img: WaveShade2Img3, shade: WaveShade2Shade3, fname: 'chestnut' },
-  { img: WaveShade2Img4, shade: WaveShade2Shade4, fname: 'mahogany' },
-  { img: WaveShade2Img5, shade: WaveShade2Shade5, fname: 'royalnut' },
-  { img: WaveShade2Img6, shade: WaveShade2Shade6, fname: 'ashwood grey' },
+  { img: WaveShade2Img1, shade: WaveShade2Shade1, fname: 'Royal Statuario DB' },
+  { img: WaveShade2Img2, shade: WaveShade2Shade2, fname: 'Armani Creama DB' },
+  { img: WaveShade2Img3, shade: WaveShade2Shade3, fname: 'Portoro' },
+  { img: WaveShade2Img4, shade: WaveShade2Shade4, fname: 'Armani Grey DB' }
 ];
 
 const Jimages = [LTrim, JtrimLarge, JtrimPro];
@@ -72,7 +74,7 @@ const trim = [
 const Wave = () => {
   return (
     <>
-      <WaveBanner />
+      <UnicBanner />
       <ImgGallery
         img1={WaveImg1}
         img2={WaveImg2}

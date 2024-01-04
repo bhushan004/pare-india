@@ -242,7 +242,7 @@ export const productsData = {
       techName: 'INNOV2+ TECHNOLOGY',
       techDesc:
         'Presenting Innov2+, an extraordinary fusion of innovation and excellence, poised to revolutionize your spaces with contemporary elegance and state-of-the-art functionality.',
-      variants: 1,
+      variants: 5,
     },
     section2data: [
       {
@@ -253,6 +253,39 @@ export const productsData = {
         productShades: [Innov2WaveShade1, Innov2WaveShade2, Innov2WaveShade3],
         pageLink: '/wave',
       },
+      {
+        type: 'Dome',
+        desc: 'In the world of interior design, where each element plays a crucial role in shaping the ambiance of a space, Dome-inspired wall panels stand out as a testament to sophistication and timeless beauty.',
+        highlights: ['No VOC Emission', 'Waterproof', 'Fire Retardant'],
+        productImgs: [Innov2WaveImg1, Innov2WaveImg2, Innov2WaveImg3],
+        productShades: [Innov2WaveShade1, Innov2WaveShade2, Innov2WaveShade3],
+        pageLink: '/dome',
+      },
+      {
+        type: 'Stripes',
+        desc: 'Stripes wall panels stand as a testament to urban elegance and architectural wonder. Drawing inspiration from the iconic shapes of skyscrapers, these panels invite you to immerse yourself in the urban majesty of soaring structures.',
+        highlights: ['Waterproof', 'Fire Retardant', '10 Year Warranty'],
+        productImgs: [Innov2WaveImg1, Innov2WaveImg2, Innov2WaveImg3],
+        productShades: [Innov2WaveShade1, Innov2WaveShade2, Innov2WaveShade3],
+        pageLink: '/stripes',
+      },
+      {
+        type: 'Prism',
+        desc: 'wall panels stand as a celebration of nature\'s rugged beauty. Inspired by the majestic peaks and valleys of mountain ranges, these panels invite you to embrace the splendor of nature within the comfort of your home.',
+        highlights: ['Waterproof', 'Fire Retardant', '10 Year Warranty'],
+        productImgs: [Innov2WaveImg1, Innov2WaveImg2, Innov2WaveImg3],
+        productShades: [Innov2WaveShade1, Innov2WaveShade2, Innov2WaveShade3],
+        pageLink: '/prism',
+      },
+      {
+        type: 'Unic',
+        desc: 'Square Wave collection emerges as a bold and captivating choice. Drawing inspiration from the mesmerizing allure of the Unicorn Square Wave, these wall panels bring a touch of magic and rhythmic innovation to your living space.',
+        highlights: ['Waterproof', 'Fire Retardant', '10 Year Warrranty'],
+        productImgs: [Innov2WaveImg1, Innov2WaveImg2, Innov2WaveImg3],
+        productShades: [Innov2WaveShade1, Innov2WaveShade2, Innov2WaveShade3],
+        pageLink: '/unic',
+      },
+      
     ],
   },
 };

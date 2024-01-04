@@ -23,6 +23,7 @@ const darkNavLinks = [
   '/product/norma/',
   '/product/vertica/',
   '/product/wave/',
+  '/product/dome/',
   '/product/louvers/',
 ];
 const darkNavLinksSm = [
@@ -40,6 +41,7 @@ const darkNavLinksSm = [
   '/product/norma/',
   '/product/vertica/',
   '/product/wave/',
+  '/product/dome/',
   '/product/louvers/',
 ];
 

@@ -1,5 +1,6 @@
 import PyramidBanner from './pyramid/PyramidBanner';
 import ArchBanner from './arch/ArchBanner';
+import DomeBanner from './dome/DomeBanner';
 import IntroSection from './IntroSection';
 import ProductInfo from './ProductInfo';
 import Brochure from './linea/Brochure';
@@ -28,4 +29,5 @@ export {
   Trims,
   ArchBanner,
   PyramidBanner,
+  DomeBanner,
 };
