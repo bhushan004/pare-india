@@ -31,10 +31,10 @@ const ContactInfo = () => {
                 Corporate Office Address: 101-103, Jai Commercial Complex, Cadbury Junction, Thane (W), 400601,
                 Maharashtra, INDIA.
               </p>
-              <p className="mt-3">
+              {/* <p className="mt-3">
                 Experience Center - 21/N, Laxmi Industrial Estate, New Link Rd, near Laxmi Chhaya Hotel, Andheri West,
                 Mumbai, Maharashtra 400053
-              </p>
+              </p> */}
             </div>
           </div>
           <h1 className="mt-5 hidden font-poppins text-8xl md:block lg:text-9xl">GET IN TOUCH</h1>

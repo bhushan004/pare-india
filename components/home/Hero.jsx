@@ -24,14 +24,16 @@ const HeroData = [
     imageSm: HeroBgMobile,
   },
   {
-    imageLg: HeroBg1,
+    // imageLg: HeroBg1,
+    imageLg: HeroBg,
     headingRedText: 'Indian',
     headingWhiteText: 'Pioneers',
     smallText: 'Global Innovators',
     imageSm: HeroBgMobile1,
   },
   {
-    imageLg: HeroBg2,
+    // imageLg: HeroBg2,
+    imageLg: HeroBg,
     headingRedText: 'Elevate',
     headingWhiteText: 'Surfaces',
     smallText: 'Unmatched Quality',
@@ -122,6 +124,9 @@ const HeroLg = () => {
         >
           contact us
         </Button>
+        <br />
+        <br />
+        <p className="mb-2 text-red-base md:text-2xl lg:text-3xl">+91 83569 54856</p>
       </div>
       <Swiper
         modules={[EffectFade, Autoplay]}
@@ -137,7 +142,7 @@ const HeroLg = () => {
                 src={el.imageLg}
                 width={1000}
                 height={100}
-                className="ml-auto !h-[450px] !w-[65vw] object-cover object-bottom lg:!h-[430px] xl:!h-[510px] 2xl:!h-[600px] 2xl:!w-[60vw]"
+                className="ml-auto !h-[450px] !w-[65vw] object-cover object-bottom lg:!h-[430px] xl:!h-[580px] 2xl:!h-[800px] 2xl:!w-[70vw]"
                 alt="bg-hero"
                 key={el.imageLg}
               />
