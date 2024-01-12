@@ -142,7 +142,7 @@ const HeroLg = () => {
                 src={el.imageLg}
                 width={1000}
                 height={100}
-                className="ml-auto !h-[450px] !w-[65vw] object-cover object-bottom lg:!h-[430px] xl:!h-[580px] 2xl:!h-[800px] 2xl:!w-[70vw]"
+                className="ml-auto !h-[450px] !w-[76vw] object-cover object-bottom lg:!h-[430px] xl:!h-[580px] 2xl:!h-[800px] 2xl:!w-[70vw]"
                 alt="bg-hero"
                 key={el.imageLg}
               />
