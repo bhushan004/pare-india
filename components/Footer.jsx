@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
-import { Logo } from '@/utils/assets';
+import { Logo, FbFooterIcon, InstaFooterIcon, LinkedinFooterIcon } from '@/utils/assets';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import Image from 'next/image';
@@ -66,6 +66,8 @@ const FooterSm = () => {
       <div className="mr-10  text-xl font-light uppercase">
         Let&apos;s work together to create the space of your dreams.
       </div>
+      <br/>
+      <p className="mb-2 font-metropolis font-light uppercase text-2xl lg:text-3xl"> +91 83569 54856 </p>
       <p className="py-5 text-3xl font-semibold">LET’S CONNECT.</p>
       <div className="flex gap-7 text-xs uppercase">
         <Link href={'https://www.instagram.com/pareindia/'} target="_blank">
@@ -119,7 +121,7 @@ const FooterLg = ({ dark }) => {
     >
       <div className="grid font-montserrat md:grid-cols-10">
         <div
-          className={`col-span-5 flex flex-col justify-between border-[0.01rem] border-opacity-50 md:p-3 lg:p-5 ${
+          className={`col-span-5 flex flex-col border-[0.01rem] border-opacity-50 md:p-3 lg:p-5 ${
             dark ? 'border-white' : 'border-black-base'
           }`}
         >
@@ -130,11 +132,54 @@ const FooterLg = ({ dark }) => {
             height={140}
             className={'object-contain'}
           />
-          <div className="w-[80%] text-base font-normal leading-5 tracking-tight">
+          <br/>
+          <div className="w-[90%] text-base font-normal leading-5 tracking-tight">
             Transform your living spaces with PARÉ&apos;s innovative,
             sustainable, and high-quality products. Let&apos;s work together to
             create a space that reflects your unique style and create
             unforgettable memories.
+          </div>
+          <br/>
+          <p className="mb-2 text-red-base font-metropolis font-light uppercase md:text-2xl lg:text-3xl pt-3"> +91 83569 54856 </p>
+          <div className="flex items-end justify-start gap-2 pt-5">
+            <Link
+              href={'https://www.facebook.com/Pareinnov/'}
+              target="_blank"
+            >
+              <Image
+                src={FbFooterIcon}
+                alt="pare facebook link"
+                width={40}
+                height={24.27}
+                className={'object-contain'}
+              ></Image>
+            </Link>
+            <Link
+              href={'https://www.instagram.com/pareindia/'}
+              target="_blank"
+              className="hover:text-red-base"
+            >
+              <Image
+                src={InstaFooterIcon}
+                alt="pare instagram link"
+                width={40}
+                height={24.27}
+                className={'object-contain'}
+              ></Image>
+            </Link>
+            <Link
+              href={'https://www.linkedin.com/company/pareindia/'}
+              target="_blank"
+              className="hover:text-red-base"
+            >
+              <Image
+                src={LinkedinFooterIcon}
+                alt="pare instagram link"
+                width={40}
+                height={24.27}
+                className={'object-contain'}
+              ></Image>
+            </Link>
           </div>
         </div>
         <div className="col-span-2 flex flex-col">

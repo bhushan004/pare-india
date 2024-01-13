@@ -9,6 +9,9 @@ import InstaIcon from '@/public/assets/images/instagram.webp';
 import FbIcon from '@/public/assets/images/facebook.webp';
 import LinkedInIcon from '@/public/assets/images/linkedin.webp';
 import MailIcon from '@/public/assets/images/mail-icon.webp';
+import FbFooterIcon from '@/public/assets/images/fb-icon.png';
+import InstaFooterIcon from '@/public/assets/images/insta-icon.png';
+import LinkedinFooterIcon from '@/public/assets/images/linkd-icon.png';
 import PhoneIcon from '@/public/assets/images/phone-icon.webp';
 import WhatsappIcon from '@/public/assets/images/whatsapp.webp';
 import PlayIcon from '@/public/assets/images/play-icon.webp';
@@ -744,6 +747,9 @@ export {
   InstaIcon,
   FbIcon,
   LinkedInIcon,
+  FbFooterIcon,
+  InstaFooterIcon,
+  LinkedinFooterIcon,
   NextProjectImg,
   NextProjectImgWeb,
   Chair400,
