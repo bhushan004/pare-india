@@ -1,5 +1,6 @@
 import { ContactFloatBtn, Footer, Navbar } from '@/components';
 import './globals.css';
+import { GoogleTagManager } from '@next/third-parties/google';
 
 export default function RootLayout({ children }) {
   return (
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         name="description"
         content="Pare India, Category:Innovative Designs, Owner:Pare India"
       /> */}
+      <GoogleTagManager gtmId="GTM-TBDTGR9N" />
       <title>Pare India</title>
       <body>
         <Navbar />

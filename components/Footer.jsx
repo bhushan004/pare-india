@@ -140,8 +140,8 @@ const FooterLg = ({ dark }) => {
             unforgettable memories.
           </div>
           <br/>
-          <p className="mb-2 text-red-base font-metropolis font-light uppercase md:text-2xl lg:text-3xl pt-3"> +91 83569 54856 </p>
-          <div className="flex items-end justify-start gap-2 pt-5">
+          <p className="mb-2 text-red-base font-metropolis font-light uppercase md:text-1.5xl lg:text-2xl"> +91 83569 54856 </p>
+          <div className="flex items-end justify-start gap-2 pt-2">
             <Link
               href={'https://www.facebook.com/Pareinnov/'}
               target="_blank"
@@ -149,7 +149,7 @@ const FooterLg = ({ dark }) => {
               <Image
                 src={FbFooterIcon}
                 alt="pare facebook link"
-                width={40}
+                width={30}
                 height={24.27}
                 className={'object-contain'}
               ></Image>
@@ -162,7 +162,7 @@ const FooterLg = ({ dark }) => {
               <Image
                 src={InstaFooterIcon}
                 alt="pare instagram link"
-                width={40}
+                width={30}
                 height={24.27}
                 className={'object-contain'}
               ></Image>
@@ -175,7 +175,7 @@ const FooterLg = ({ dark }) => {
               <Image
                 src={LinkedinFooterIcon}
                 alt="pare instagram link"
-                width={40}
+                width={30}
                 height={24.27}
                 className={'object-contain'}
               ></Image>
