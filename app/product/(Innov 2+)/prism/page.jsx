@@ -40,6 +40,11 @@ import {
 } from '@/utils/assets';
 import PrismBanner from '@/components/products/prism/PrismBanner';
 
+export const metadata = {
+  title: 'Mountain Range-Inspired Wooden Feel Wall Panels | Embrace Nature\'s Beauty',
+  description: 'Revolutionize your space with Prism, our wall panels inspired by mountain ranges. Capture the rugged beauty of nature as these unique panels echo the peaks and valleys of majestic mountains. Available in shades like Honey Maple, Royal Statuario, Oro, and Linen Ivory, Prism brings nature\'s splendor to the comfort of your home. Redefine your space with the power of natural inspiration.',
+}
+
 const metallicData = [
   { img: WaveShade1Img1, shade: WaveShade1Shade1, fname: 'Honey Maple DB' },
   { img: WaveShade1Img3, shade: WaveShade1Shade3, fname: 'Danish Teak DB' },

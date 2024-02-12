@@ -40,6 +40,11 @@ import {
 } from '@/utils/assets';
 import WaveBanner from '@/components/products/wave/WaveBanner';
 
+export const metadata = {
+  title: 'Wave Panels Ocean-Inspired Elegance & Durability for Your Outdoors',
+  description: 'Transform your space with Wave\'s graceful curves & superior Innov2+ panels. Eco-friendly, no VOCs, real wood feel & seamless look. Checkout stunning images',
+}
+
 const metallicData = [
   { img: WaveShade1Img1, shade: WaveShade1Shade1, fname: 'golden oak' },
   { img: WaveShade1Img3, shade: WaveShade1Shade3, fname: 'birch' },

@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         content="Pare India, Category:Innovative Designs, Owner:Pare India"
       /> */}
       <GoogleTagManager gtmId="GTM-TBDTGR9N" />
-      <title>Pare India</title>
+      {/* <title>Pare India</title> */}
       <body>
         <Navbar />
         {children}

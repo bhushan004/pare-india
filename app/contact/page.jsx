@@ -3,6 +3,12 @@ import { ContactBg } from '@/utils/assets'
 import Image from 'next/image'
 import React from 'react'
 
+
+export const metadata = {
+  title: 'Contact Us | Pare India',
+  description: '',
+}
+
 const ContactPage = () => {
   return (
     <div className="relative z-0 overflow-clip bg-black-base text-white">

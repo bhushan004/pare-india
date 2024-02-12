@@ -40,6 +40,11 @@ import {
 } from '@/utils/assets';
 import UnicBanner from '@/components/products/unic/UnicBanner';
 
+export const metadata = {
+  title: 'Combination of Wooden Slat Designs Inspired the Unic Wall Panels | Enchanting Interior Design',
+  description: 'Dare to be different with UNIC, our wall panels are inspired by the mesmerizing allure of combining unique designs of wooden slat panels. Experience enchantment and innovation as the rhythmic undulations flow through your walls. Available in shades like Honey Maple, Royal Statuario, Oro, and Linen Grey, UNIC allows you to make a bold statement and spark your imagination with unique visual symphonies in your interior space. Elevate your design with UNIC\'s captivating allure.',
+}
+
 const metallicData = [
   { img: WaveShade1Img1, shade: WaveShade1Shade1, fname: 'Honey Maple DB' },
   { img: WaveShade1Img3, shade: WaveShade1Shade3, fname: 'Danish Teak DB' },

@@ -32,6 +32,11 @@ import {
 } from '@/utils/assets';
 import StrettaBanner from '@/components/products/stretta/StrettaBanner';
 
+export const metadata = {
+  title: 'Stretta Panels - Achieve a Flawless Look for Exterior Wall Cladding',
+  description: 'Achieve a pristine & resilient look with Stretta panels. With high impact resistance, recyclability, and termite/rust-proof features',
+}
+
 const metallicData = [
   {
     img: StrettaShade1Img1,

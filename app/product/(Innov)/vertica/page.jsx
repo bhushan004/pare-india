@@ -51,6 +51,11 @@ import {
 } from '@/utils/assets';
 import VerticaBanner from '@/components/products/vertica/VerticaBanner';
 
+export const metadata = {
+  title: 'Design Your Interior with Vertica PVC Panels by Pare India',
+  description: 'Discover Vertica, the avant-garde wall panel designed for customizable excellence, tailoring your interior design to perfection. With a vertical orientation that accentuates space height, Vertica transforms your living or working environment, instilling a sense of grandeur. Crafted from premium materials, Vertica offers sleek design, high impact resistance, and a unique interlocking system for a sophisticated atmosphere. Design your space with Vertica, where customizable excellence meets durability and modern elegance.',
+}
+
 const metallicData = [
   { img: verticaShade1Img1, shade: verticaShade1Shade1, fname: 'GOLD' },
   { img: verticaShade1Img2, shade: verticaShade1Shade2, fname: 'SILVER' },

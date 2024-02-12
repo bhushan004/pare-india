@@ -40,6 +40,11 @@ import {
 } from '@/utils/assets';
 import StripesBanner from '@/components/products/stripes/StripesBanner';
 
+export const metadata = {
+  title: 'Skyscraper Inspired Wooden Feel Wall Panels | Explore Vertical Elegance',
+  description: 'Experience the urban majesty of skyscrapers within your own walls with STRIPES. These awe-inspiring, skyscraper-inspired wall panels capture the iconic shapes and verticality of towering structures, redefining elegance in any space. Immerse yourself in the architectural wonder, available in a variety of stunning shades across wood, marble, metal, and fabric collections. Discover STRIPES and take your interior design ideas to new heights',
+}
+
 const metallicData = [
   { img: WaveShade1Img1, shade: WaveShade1Shade1, fname: 'Honey Maple DB' },
   { img: WaveShade1Img3, shade: WaveShade1Shade3, fname: 'Danish Teak DB' },

@@ -49,6 +49,11 @@ import {
   JtrimPro,
 } from '@/utils/assets';
 
+export const metadata = {
+  title: 'Linea Shaped Wall Panels - Elegant Design for Modern Sophistication | Easy+ Installation',
+  description: 'Transform your walls into captivating art with Linea Shape, effortlessly installed with Easy+. Discover sleek lines, modern sophistication & eco-conscious design. With Easy+ installation, recyclable materials, and an advanced interlocking system, Linea is not just a wall panel; it is a statement in elegant design and responsible, practical construction.',
+}
+
 const metallicData = [
   { img: LineaMetallicImg1, shade: LineaMetallicShade1, fname: 'GOLD' },
   { img: LineaMetallicImg2, shade: LineaMetallicShade2, fname: 'SILVER' },

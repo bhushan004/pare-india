@@ -54,6 +54,11 @@ import {
 } from '@/utils/assets';
 import LouversBanner from '@/components/products/louvers/LouversBanner';
 
+export const metadata = {
+  title: 'Louvers Wall Panel - Dynamic Appeal, Functionality, and 10-Year Warranty',
+  description: 'Discover the perfect blend of style and functionality with Pare India\'s Soffit Panel, a waterproof wall panel that redefines modern interior design. Explore the elegance of Soffit, offering a timeless aesthetic with its minimalist design. Achieve durability without compromising on sophistication.',
+}
+
 const metallicData = [
   { img: louverShade1Img1, shade: louverShade1Shade1, fname: 'GOLD' },
   { img: louverShade1Img2, shade: louverShade1Shade2, fname: 'SILVER' },

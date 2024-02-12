@@ -52,6 +52,13 @@ import {
   OutsideTrim,
 } from '@/utils/assets';
 import DuoBanner from '@/components/products/duo/DuoBanner';
+
+export const metadata = {
+  title: 'Ceiling and Wall Panel System - Design Your Space with PARE DUO Panels',
+  description: 'Explore Duo, Pare India\'s innovative ceiling and wall panel system. Immerse your space in the magic of contrasting textures and colors. Duo offers a captivating visual depth, turning your space into a true work of art. With features like unique interlocking, fire retardancy, and lightweight design, it\'s a secure and stylish choice for your interior. Order now for a hassle-free installation that combines safety with sophisticated aesthetics.',
+}
+
+
 const metallicData = [
   { img: DuoShade1Img1, shade: DuoShade1Shade1, fname: 'GOLDen oak' },
   { img: DuoShade1Img3, shade: DuoShade1Shade3, fname: 'birch' },

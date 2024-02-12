@@ -49,6 +49,11 @@ import {
   JtrimPro,
 } from '@/utils/assets';
 
+export const metadata = {
+  title: 'Pyramid Shape Wall Panels: Timeless Allure Meets Easy Installation',
+  description: 'Revamp your space with Pyramid Shape Wall Panels from Pare Panels, where geometric elegance converges with architectural intrigue. Transform your surroundings with the timeless allure of pyramid-shaped panels, showcasing a symphony of form and function that pleases the eye. Effortlessly revitalize your space with Easy+, the ultimate easy-to-install system for remarkable transformations. Easy+ lives up to its name, streamlining the installation process for DIY enthusiasts and professionals alike.',
+}
+
 const metallicData = [
   { img: LineaMetallicImg1, shade: LineaMetallicShade1, fname: 'GOLD' },
   { img: LineaMetallicImg2, shade: LineaMetallicShade2, fname: 'SILVER' },

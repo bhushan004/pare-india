@@ -57,6 +57,11 @@ import {
 } from '@/utils/assets';
 import SoffitBanner from '@/components/products/soffit/SoffitBanner';
 
+export const metadata = {
+  title: 'Premium Quality Interior Panels - Explore Soffit by Pare India',
+  description: 'Discover the perfect blend of style and functionality with Pare India\'s Soffit Panel, a waterproof wall panel that redefines modern interior design. Explore the elegance of Soffit, offering a timeless aesthetic with its minimalist design. Achieve durability without compromising on sophistication. Upgrade your space with the premium quality of Pare India\'s Soffit Panel.',
+}
+
 const metallicData = [
   { img: SoffitShade1Img1, shade: SoffitShade1Shade1, fname: 'GOLDen oak' },
   { img: SoffitShade1Img3, shade: SoffitShade1Shade3, fname: 'birch' },

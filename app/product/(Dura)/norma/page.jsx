@@ -30,6 +30,11 @@ import {
 } from '@/utils/assets';
 import NormaBanner from '@/components/products/norma/NormaBanner';
 
+export const metadata = {
+  title: 'Norma Outdoor Wall Panels Superior Quality, Long Life & UV Resistance | Dura+ Panels',
+  description: 'Design your exterior walls with NORMA UV-resistant, long-lasting outdoor panels crafted for beauty & resilience. Easy care, superior quality',
+}
+
 const metallicData = [
   {
     img: NormaShade1Img1,

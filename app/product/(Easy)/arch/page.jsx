@@ -49,6 +49,11 @@ import {
   JtrimPro,
 } from '@/utils/assets';
 
+export const metadata = {
+  title: 'Arch Streamlined PVC Wall & Ceiling Panels for Effortless Transformations | Easy+ Installation',
+  description: 'Discover Arch, the interior PVC wall and ceiling panels designed for simplicity and sophistication. Prioritizing a streamlined structure, Arch seamlessly integrates into the EASY+ System. The circular shape not only enhances visual appeal but also plays a critical role in boosting overall aesthetic and functionality.',
+}
+
 const metallicData = [
   { img: LineaMetallicImg1, shade: LineaMetallicShade1, fname: 'GOLD' },
   { img: LineaMetallicImg2, shade: LineaMetallicShade2, fname: 'SILVER' },

@@ -2,6 +2,11 @@ import { LastSection } from '@/components'
 import { AboutUs, Vision } from '@/components/about'
 import React from 'react'
 
+export const metadata = {
+  title: 'About Us | Pare India',
+  description: '',
+}
+
 const AboutPage = () => {
   return (
     <main>

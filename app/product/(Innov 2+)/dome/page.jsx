@@ -40,6 +40,11 @@ import {
 } from '@/utils/assets';
 import DomeBanner from '@/components/products/dome/DomeBanner';
 
+export const metadata = {
+  title: 'Dome-Inspired Wooden Feel PVC Wall Panels | Transform Your Interior',
+  description: 'Transform your walls with DOME\'s exquisite, dome-inspired panels. Crafted with elegance & detail, these intricately curved shapes & patterns add a touch of grandeur to any interior. Choose from natural wood, sophisticated marble, gleaming metallic, or soft fabric in a variety of stunning shades. Discover DOME',
+}
+
 const metallicData = [
   { img: WaveShade1Img1, shade: WaveShade1Shade1, fname: 'Honey Maple DB' },
   { img: WaveShade1Img3, shade: WaveShade1Shade3, fname: 'Danish Teak DB' },
