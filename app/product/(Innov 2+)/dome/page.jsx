@@ -6,16 +6,27 @@ import {
   Trims,
 } from '@/components/products';
 import {
-  WaveImg1,
-  WaveImg2,
-  WaveImg3,
-  WaveImg4,
-  WaveShade1Img1,
-  WaveShade1Img2,
-  WaveShade1Img3,
-  WaveShade1Img4,
-  WaveShade1Img5,
-  WaveShade1Img6,
+  DomeImg1,
+  DomeImg2,
+  DomeImg3,
+  DomeImg4,
+  DomeShade1Img1,
+  DomeShade1Img2,
+  DomeShade1Img3,
+  DomeShade1Img4,
+  DomeShade1Img5,
+  DomeShade1Img6,
+  DomeShade1Img7,
+  DomeShade1Img8,
+  DomeShade1Img9,
+  DomeShade1Img10,
+  DomeShade1Img11,
+  DomeShade1Img12,
+  DomeShade1Img13,
+  DomeShade1Img14,
+  DomeShade1Img15,
+  DomeShade2Img1,
+  DomeShade2Img2,
   WaveShade1Shade1,
   WaveShade1Shade2,
   WaveShade1Shade3,
@@ -34,6 +45,7 @@ import {
   WaveShade2Img4,
   WaveShade2Img5,
   WaveShade2Img6,
+  WaveShade1Img6,
   LTrim,
   JtrimLarge,
   JtrimPro,
@@ -46,15 +58,20 @@ export const metadata = {
 }
 
 const metallicData = [
-  { img: WaveShade1Img1, shade: WaveShade1Shade1, fname: 'Honey Maple DB' },
-  { img: WaveShade1Img3, shade: WaveShade1Shade3, fname: 'Danish Teak DB' },
-  { img: WaveShade1Img2, shade: WaveShade1Shade2, fname: 'Oak Noir DB' },
-  { img: WaveShade1Img4, shade: WaveShade1Shade4, fname: 'White Mist DB' },
-  { img: WaveShade1Img4, shade: WaveShade1Shade4, fname: 'Noce Grande DB' },
-  { img: WaveShade1Img4, shade: WaveShade1Shade4, fname: 'Gold Maple DB' },
-  { img: WaveShade1Img4, shade: WaveShade1Shade4, fname: 'English Nut DB' },
-  { img: WaveShade1Img4, shade: WaveShade1Shade4, fname: 'Oakwood Ocre DB' },
-  { img: WaveShade1Img4, shade: WaveShade1Shade4, fname: 'Spiced Walnut DB' },
+  { img: DomeShade1Img1, shade: WaveShade1Shade1, fname: 'Gold Maple' },
+  { img: DomeShade1Img2, shade: WaveShade1Shade3, fname: 'argento' },
+  { img: DomeShade1Img3, shade: WaveShade1Shade2, fname: 'English Nut' },
+  { img: DomeShade1Img4, shade: WaveShade1Shade4, fname: 'Noce Grande' },
+  { img: DomeShade1Img5, shade: WaveShade1Shade4, fname: 'Danish Teak' },
+  { img: DomeShade1Img6, shade: WaveShade1Shade4, fname: 'Linen Grey' },
+  { img: DomeShade1Img7, shade: WaveShade1Shade4, fname: 'Linen Ivory' },
+  { img: DomeShade1Img8, shade: WaveShade1Shade4, fname: 'Portoro' },
+  { img: DomeShade1Img9, shade: WaveShade1Shade4, fname: 'Oro' },
+  { img: DomeShade1Img10, shade: WaveShade1Shade4, fname: 'Oak Nair' },
+  { img: DomeShade1Img11, shade: WaveShade1Shade4, fname: 'Spiced Walnut' },
+  { img: DomeShade1Img12, shade: WaveShade1Shade4, fname: 'white mist' },
+  { img: DomeShade1Img13, shade: WaveShade1Shade4, fname: 'Oak wood' },
+  { img: DomeShade1Img14, shade: WaveShade1Shade4, fname: 'Rame' },
   {
     img: WaveShade1Img6,
     shade: WaveShade1Shade6,
@@ -64,10 +81,8 @@ const metallicData = [
 ];
 
 const shade2Data = [
-  { img: WaveShade2Img1, shade: WaveShade2Shade1, fname: 'Royal Statuario DB' },
-  { img: WaveShade2Img2, shade: WaveShade2Shade2, fname: 'Armani Creama DB' },
-  { img: WaveShade2Img3, shade: WaveShade2Shade3, fname: 'Portoro' },
-  { img: WaveShade2Img4, shade: WaveShade2Shade4, fname: 'Armani Grey DB' }
+  { img: DomeShade2Img1, shade: WaveShade2Shade1, fname: 'Armani Grey' },
+  { img: DomeShade2Img2, shade: WaveShade2Shade2, fname: 'Royal Statuario' }
 ];
 
 const Jimages = [LTrim, JtrimLarge, JtrimPro];
@@ -81,12 +96,12 @@ const Wave = () => {
     <>
       <DomeBanner />
       <ImgGallery
-        img1={WaveImg1}
-        img2={WaveImg2}
-        img3={WaveImg3}
-        img4={WaveImg4}
+        img1={DomeImg1}
+        img2={DomeImg2}
+        img3={DomeImg3}
+        img4={DomeImg4}
       />
-      <Info code="113" size="270mm X 3060mm" shades={12} collections={2} />
+      <Info code="113" size="270mm X 3060mm" shades={17} collections={2} />
       <Shades
         firstTitle="WOODEN"
         firstData={metallicData}

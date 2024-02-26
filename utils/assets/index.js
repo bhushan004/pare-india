@@ -244,6 +244,11 @@ import WaveImg2 from '@/public/assets/images/products/wave/gallery/img2.webp';
 import WaveImg3 from '@/public/assets/images/products/wave/gallery/img3.webp';
 import WaveImg4 from '@/public/assets/images/products/wave/gallery/img4.webp';
 
+import DomeImg1 from '@/public/assets/images/products/dome/gallery/img1.webp';
+import DomeImg2 from '@/public/assets/images/products/dome/gallery/img2.webp';
+import DomeImg3 from '@/public/assets/images/products/dome/gallery/img3.webp';
+import DomeImg4 from '@/public/assets/images/products/dome/gallery/img4.webp';
+
 import DuoImg1 from '@/public/assets/images/products/Duo/gallery/img1.webp';
 import DuoImg2 from '@/public/assets/images/products/Duo/gallery/img2.webp';
 import DuoImg3 from '@/public/assets/images/products/Duo/gallery/img3.webp';
@@ -255,6 +260,7 @@ import StrettaWoodImg from '@/public/assets/images/products/stretta/banner.png';
 import SofitBannerWoodImg from '@/public/assets/images/products/soffit/banner.png';
 import VerficaBannerWoodImg from '@/public/assets/images/products/vertica/banner.png';
 import WaveBannerWoodImg from '@/public/assets/images/products/wave/banner.png';
+import DomeBannerWoodImg from '@/public/assets/images/products/dome/banner.png';
 import NormaBannerWoodImg from '@/public/assets/images/products/norma/banner.png';
 
 import NormaTitleImg from '@/public/assets/images/products/norma/main-img.png';
@@ -264,6 +270,10 @@ import StrettaTitleImg from '@/public/assets/images/products/stretta/main-img.pn
 import SoffitTitleImg from '@/public/assets/images/products/soffit/main-img.png';
 import VerticaTitleImg from '@/public/assets/images/products/vertica/main-img.png';
 import WaveTitleImg from '@/public/assets/images/products/wave/main-img.png';
+import DomeTitleImg from '@/public/assets/images/products/dome/main-img.png';
+// import StripeTitleImg from '@/public/assets/images/products/stripe/main-img.png';
+// import PrismTitleImg from '@/public/assets/images/products/prism/main-img.png';
+// import UnicTitleImg from '@/public/assets/images/products/unic/main-img.png';
 
 import PyramidImg1 from '@/public/assets/images/products/pyramid/gallery/img1.webp';
 import PyramidImg2 from '@/public/assets/images/products/pyramid/gallery/img2.webp';
@@ -300,6 +310,25 @@ import WaveShade1Shade3 from '@/public/assets/images/products/wave/shade1/shade3
 import WaveShade1Shade4 from '@/public/assets/images/products/wave/shade1/shade4.png';
 import WaveShade1Shade5 from '@/public/assets/images/products/wave/shade1/shade5.png';
 import WaveShade1Shade6 from '@/public/assets/images/products/wave/shade1/shade6.png';
+
+import DomeShade1Img1 from '@/public/assets/images/products/dome/shade1/img1.jpg';
+import DomeShade1Img2 from '@/public/assets/images/products/dome/shade1/img2.jpg';
+import DomeShade1Img3 from '@/public/assets/images/products/dome/shade1/img3.jpg';
+import DomeShade1Img4 from '@/public/assets/images/products/dome/shade1/img4.jpg';
+import DomeShade1Img5 from '@/public/assets/images/products/dome/shade1/img5.jpg';
+import DomeShade1Img6 from '@/public/assets/images/products/dome/shade1/img6.jpg';
+import DomeShade1Img7 from '@/public/assets/images/products/dome/shade1/img7.jpg';
+import DomeShade1Img8 from '@/public/assets/images/products/dome/shade1/img8.jpg';
+import DomeShade1Img9 from '@/public/assets/images/products/dome/shade1/img9.jpg';
+import DomeShade1Img10 from '@/public/assets/images/products/dome/shade1/img10.jpg';
+import DomeShade1Img11 from '@/public/assets/images/products/dome/shade1/img11.jpg';
+import DomeShade1Img12 from '@/public/assets/images/products/dome/shade1/img12.jpg';
+import DomeShade1Img13 from '@/public/assets/images/products/dome/shade1/img13.jpg';
+import DomeShade1Img14 from '@/public/assets/images/products/dome/shade1/img14.jpg';
+import DomeShade1Img15 from '@/public/assets/images/products/dome/shade1/img15.jpg';
+
+import DomeShade2Img1 from '@/public/assets/images/products/dome/shade2/img1.jpg';
+import DomeShade2Img2 from '@/public/assets/images/products/dome/shade2/img2.jpg';
 
 import WaveShade2Img1 from '@/public/assets/images/products/wave/shade2/img1.png';
 import WaveShade2Img2 from '@/public/assets/images/products/wave/shade2/img2.png';
@@ -897,6 +926,7 @@ export {
   StrettaWoodImg,
   VerficaBannerWoodImg,
   WaveBannerWoodImg,
+  DomeBannerWoodImg,
   DuoTitleImg,
   LouverTitleImg,
   NormaTitleImg,
@@ -904,6 +934,7 @@ export {
   StrettaTitleImg,
   VerticaTitleImg,
   WaveTitleImg,
+  DomeTitleImg,
   ArchImg,
   ArchSideImg,
   BrochureBg,
@@ -995,6 +1026,10 @@ export {
   WaveImg2,
   WaveImg3,
   WaveImg4,
+  DomeImg1,
+  DomeImg2,
+  DomeImg3,
+  DomeImg4,
   NormaShade1Img1,
   NormaShade1Img2,
   NormaShade1Img3,
@@ -1035,6 +1070,23 @@ export {
   WaveShade2Shade4,
   WaveShade2Shade5,
   WaveShade2Shade6,
+  DomeShade1Img1,
+  DomeShade1Img2,
+  DomeShade1Img3,
+  DomeShade1Img4,
+  DomeShade1Img5,
+  DomeShade1Img6,
+  DomeShade1Img7,
+  DomeShade1Img8,
+  DomeShade1Img9,
+  DomeShade1Img10,
+  DomeShade1Img11,
+  DomeShade1Img12,
+  DomeShade1Img13,
+  DomeShade1Img14,
+  DomeShade1Img15,
+  DomeShade2Img1,
+  DomeShade2Img2,
   SoffitShade1Img1,
   SoffitShade1Img2,
   SoffitShade1Img3,
